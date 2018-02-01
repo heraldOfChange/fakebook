@@ -1,0 +1,162 @@
+#header, .header{
+     height: auto;
+     overflow-x: hidden;
+     overflow-y: auto;
+     width: 98%;
+     line-height: 70px;
+     padding: 10px 1%;
+     margin: 0;
+     background: #359;
+     text-align: right;
+}
+
+.quickLinks{
+     display: table;
+     vertical-align: middle;
+}.quickLinks h1{
+     display: inline-block;
+     font-family: facebook;
+     vertical-align: middle;
+     letter-spacing: 2px;
+}.logo{
+     max-height: 50px;
+}.quickLinks img{
+     height: 32px;
+     padding: 8px;
+     vertical-align: middle;
+}.quickLinks td{
+     width: 32.33%;
+     height: 60px;
+     padding: 0 0.5%;
+     line-height: 60px;
+     vertical-align: middle;
+}.quickLinks form{
+     text-align: left;
+}.quickLinks input{
+     position: relative;
+     display: inline-block;
+     margin: 2px 0;
+     vertical-align: middle;
+}.quickLinks a{
+     display: inline-block;
+     margin: 0 6px;
+     cursor: pointer;
+     vertical-align: middle;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+     -webkit-transition: color 0.3s, background 0.3s;-moz-transition: color 0.3s, background 0.3s;-o-transition: color 0.3s, background 0.3s;-ms-transition: color 0.3s, background 0.3s;transition: color 0.3s, background 0.3s;
+}.quickLinks td a:hover{
+     background: #5b7;
+}.accountSettings a{
+     padding: 8px 16px;
+}.accountSettings a:hover{
+     background: white!important;
+     color: #359;
+}
+
+.search table{
+     height: 70px;
+     line-height: 70px;
+}.search table td{
+     padding: 0 4px;
+}.search input{
+     height: 30px;
+     padding: 0 8px;
+     color: #359;
+     font-size: 100%;
+     border: none;
+     display: inline-block;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+}.search input.searchBtn{
+     text-indent: 0em;
+     background: #359;
+     border: 1px solid white;
+     color: white;
+     cursor: pointer;
+     -webkit-transition-duration: 0.3s;-moz-transition-duration: 0.3s;-o-transition-duration: 0.3s;-ms-transition-duration: 0.3s;transition-duration: 0.3s;
+}.search input.searchBtn:hover{
+     color: #359;
+     background: white;
+}
+
+.account_settings a{
+     padding: 8px;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+}.account_settings a:hover{
+     color: #359;
+     background: white;
+}
+
+#content{
+     color: #359;
+     float: left;
+     overflow-x: hidden;
+     overflow-y: auto;
+     width: 92%;
+     margin: 0;
+     padding: 40px 4%;
+}
+
+.options, .posts, .updates{
+     display: block;
+     float: left;
+     -webkit-width: calc(33.33% - 40px);-moz-width: calc(33.33% - 40px);-o-width: calc(33.33% - 40px);-ms-width: calc(33.33% - 40px);width: calc(33.33% - 40px);
+     padding: 20px;
+}.options a, .posts a, .updates a{
+     color: #359;
+}.options a:hover, .posts a:hover, .updates a:hover{
+     color: #4a7;
+}
+
+.options ul, .posts ul, .updates ul{
+     list-style: none;
+     margin: 5px 0;
+     padding: 0 5px;
+}.content ul a{
+     color: #333;
+     text-indent: 0.75em;
+}.content ul a:hover{
+     color: #e50;
+}
+
+textarea{
+     width: 96%;
+     border: 1px solid #359;
+     padding: 10px 2%;
+     font-size: 100%;
+     resize: none;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+}
+
+.userPost{
+     display: block;
+     padding: 10px;
+     margin: 10px 0;
+     background: white;
+     overflow-x: hidden;
+     overflow-y: auto;
+     border: 1px solid #dadada;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+}.userPost footer{
+     color: #5b7;
+}.userPost content{
+     color: #333;
+}
+
+.options #profilePic{
+    border: 2px solid #359;
+    width: 150px;
+}
+
+.post .btn{
+     background: #359;
+     color: white;
+     height: 30px;
+     border: none;
+     line-height: 30px;
+     padding: 0 16px;
+     cursor: pointer;
+     -webkit-transition-duration: 0.3s;-moz-transition-duration: 0.3s;-o-transition-duration: 0.3s;-ms-transition-duration: 0.3s;transition-duration: 0.3s;
+     -webkit-border-radius: 4px;-moz-border-radius: 4px;-o-border-radius: 4px;-ms-border-radius: 4px;border-radius: 4px;
+}.post .btn:hover{
+     background: #5b7;
+}
